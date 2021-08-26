@@ -1,0 +1,89 @@
+ /* ================GOOGLE FONTS================ */
+
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;600&display=swap');
+
+ *{
+     font-family: 'Poppins', sans-serif;
+     margin:0;
+ }
+
+
+ .button {
+    display: inline-block;
+    font-weight: 600;
+    color: white;
+    background-color: #E76F51;
+    text-decoration: none;
+    padding: 10px 40px;
+    border: 2px solid #E76F51;
+    border-radius: 5px;
+  }
+  
+  .button:hover {
+    color: #E76F51;
+    background: transparent;
+  }
+
+
+/* ========================Client Style===================== */
+
+.card-body{
+    margin-right: p;
+}
+.card-body span>i{
+    margin-right: 4px;
+    color: #E76F51;
+}
+.card-body h5{
+    color: #23A6F0;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+}
+.card-body h6{
+    color: #252B42;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+/* Subscribe Section */
+
+.subscribe {
+    background-image: url(images/subscribe-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding: 100px 0;
+}
+
+.subscribe-info {
+    position: relative;
+    z-index: 200;
+}
+
+.overlay {
+    position: absolute;
+    /* display: block;  */
+    width: 100%; 
+    /* height: 100%;  */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.7);
+    z-index: 2;
+  }
+
+/* =================FOOTER SECTION=============== */
+
+footer {
+    background-color: #0B0D17;
+    padding: 100px 0;
+  }
+  
+  footer a {
+    text-decoration: none;
+    color: white;
+  }
